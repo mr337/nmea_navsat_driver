@@ -196,6 +196,10 @@ parse_maps = {
     "HDT": [
         ("heading", safe_float, 1),
     ],
+    "THS": [
+        ("heading", safe_float, 1),
+        ("mode", str, 2),
+    ],
     "VTG": [
         ("true_course", convert_deg_to_rads, 1),
         ("speed", convert_knots_to_mps, 5)
